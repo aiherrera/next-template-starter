@@ -22,7 +22,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [Pretty quick](https://github.com/azz/pretty-quick)
 - [Lint staged](https://github.com/okonet/lint-staged)
 
-##### Fully configured [Material UI](https://material-ui.com/)
+## Configured with [Material UI](https://material-ui.com/)
 For using it, just switch to branch [material-ui](https://github.com/aiherrera/next-template-starter/tree/material-ui)
 
 ## Getting Started
