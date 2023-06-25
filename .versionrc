@@ -33,10 +33,10 @@
       "hidden": true
     }
   ],
-  "commitUrlFormat": "https://github.com/aiherrera/ecotracker/commit/{{hash}}",
-  "compareUrlFormat": "https://github.com/aiherrera/ecotracker/compare/{{previousTag}}...{{currentTag}}",
+  "commitUrlFormat": "https://github.com/aiherrera/next-template-starter/commit/{{hash}}",
+  "compareUrlFormat": "https://github.com/aiherrera/next-template-starter/compare/{{previousTag}}...{{currentTag}}",
   "issuePrefixes": [
     "#"
   ],
-  "issueUrlFormat": "https://github.com/aiherrera/eco/issues/{{id}}"
+  "issueUrlFormat": "https://github.com/aiherrera/next-template-starter/issues/{{id}}"
 }
