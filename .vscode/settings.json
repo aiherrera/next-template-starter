@@ -16,7 +16,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": false,
   "editor.formatOnType": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnSaveMode": "modificationsIfAvailable",
   "files.autoSave": "onFocusChange",
   "editor.codeActionsOnSave": {

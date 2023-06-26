@@ -18,7 +18,7 @@
 </p>
 
 <h2 style="display:flex;align-items:center;gap:10px;padding:10px 0;margin-bottom:20px;border-bottom:1px solid #4a4f57">
-  <img width="25" height="25" style="flex" src="public/readme/overview.svg" />
+  <img width="25" height="25" style="flex" src="public/readme/overview.svg" />&nbsp;
   <span>Quick overview</span>
 </h2>
 
@@ -54,21 +54,24 @@
 | Semantic Release     | Automated releases based on commit history                        | ✅ DONE        |
 | Github Actions       | Continuous integration and workflows                              | ✅ DONE        |
 | Codecov              | Code coverage reporting tool                                      | ✅ DONE        |
-| ADDONS                                                                                                    |
+| TESTING & VALIDATION                                                                                      |
 | Storybook            | UI component development environment                              | 🚧 In progress |
 | Zod                  | TypeScript-first schema declaration and validation library        | ❌ In progress |
-| Zustand              | Global state management                                           | ❌ In progress |
-| React Hook Forms     | Performant forms with easy-to-use validation                      | ❌ In progress |
-| TESTING                                                                                                   |
 | Jest                 | JavaScript testing framework                                      | ❌ Not started |
 | React Testing Library| Testing utilities for React components                            | ❌ Not started |
-| Cypress              | End-to-end testing framework                                      | ❌ Not starter |
+| Cypress              | End-to-end testing framework                                      | ❌ Not started |
+| ADDONS                                                                                                    |
+| Zustand              | Global state management                                           | ❌ In progress |
+| React Hook Forms     | Performant forms with easy-to-use validation                      | ❌ In progress |
+| NextAuth.js          | Authentication for Next.js                                        | ❌ Not started |
+| Next-Themes          | An abstraction for themes in your Next.js app.                    | ❌ Not started |
+| Stripe               | An abstraction for themes in your Next.js app.                    | ❌ Not started |
+| Cloudinary           | The Most Powerful Image and Video API                             | ❌ Not started |
 
 </div> 
 
-
 <h2 style="display:flex;align-items:center;gap:10px;padding:10px 0;margin-bottom:20px;border-bottom:1px solid #4a4f57">
-  <img width="25" height="25" style="flex" src="public/readme/author.svg" />
+  <img width="25" height="25" style="flex" src="public/readme/author.svg" />&nbsp;
   <span>Author</span>
 </h2>
 
@@ -81,14 +84,14 @@
 - LinkedIn: [@-aiherrera](https://linkedin.com/in/-aiherrera)
 
 <h2 style="display:flex;align-items:center;gap:10px;padding:10px 0;margin-bottom:20px;border-bottom:1px solid #4a4f57">
-  <img width="25" height="25" style="flex" src="public/readme/contribute.svg" />
+  <img width="25" height="25" style="flex" src="public/readme/contribute.svg" />&nbsp;
   <span>Contribute</span>
 </h2>
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/aiherrera/next-template-starter/issues). You can also take a look at the [contributing guide](https://github.com/aiherrera/next-template-starter/blob/master/CONTRIBUTING.md)
 
 <h2 style="display:flex;align-items:center;gap:10px;padding:10px 0;margin-bottom:20px;border-bottom:1px solid #4a4f57">
-  <img width="25" height="25" style="flex" src="public/readme/support.svg" />
+  <img width="25" height="25" style="flex" src="public/readme/support.svg" />&nbsp;
   <span>Support the project</span>
 </h2>
 

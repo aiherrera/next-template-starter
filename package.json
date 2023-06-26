@@ -1,7 +1,27 @@
 {
   "name": "next-template-starter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": {
+    "name": "aiherrera",
+    "email": "aiherrera@users.noreply.github.com",
+    "url": "https://aiherrera.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiherrera/next-template-starter.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "template",
+    "husky",
+    "eslint",
+    "commitlint",
+    "standard-version",
+    "semantic-release",
+    "codecov"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,6 +40,8 @@
     "release:major": "standard-version --release-as major"
   },
   "dependencies": {
+    "@cloudinary/react": "^1.11.2",
+    "@cloudinary/url-gen": "^1.10.1",
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@headlessui/react": "^1.7.15",
@@ -33,6 +55,7 @@
     "@types/uuid": "^9.0.2",
     "@typescript-eslint/eslint-plugin": "^5.60.0",
     "autoprefixer": "10.4.14",
+    "cmdk": "^0.2.0",
     "encoding": "^0.1.13",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
