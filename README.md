@@ -61,7 +61,7 @@
 | React Testing Library| Testing utilities for React components                            | ❌ Not started |
 | Cypress              | End-to-end testing framework                                      | ❌ Not started |
 | ADDONS                                                                                                    |
-| Zustand              | Global state management                                           | ❌ In progress |
+| Zustand              | Global state management                                           | ✅ DONE        |
 | React Hook Forms     | Performant forms with easy-to-use validation                      | ❌ In progress |
 | NextAuth.js          | Authentication for Next.js                                        | ❌ Not started |
 | Next-Themes          | An abstraction for themes in your Next.js app.                    | ❌ Not started |
