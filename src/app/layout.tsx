@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 // import localFont from 'next/font/local'
 import { AppTitle } from '@/constants/global'
 
-import '@/styles/globals.css'
+import '@/app/css/globals.css'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -39,7 +39,9 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-inter bg-white tracking-tight text-gray-800 antialiased`}>
+      <body
+        className={`${inter.variable} bg-white font-inter tracking-tight text-gray-800 antialiased`}
+      >
         <div className="flex min-h-screen flex-col overflow-hidden">{children}</div>
       </body>
     </html>

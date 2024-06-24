@@ -26,10 +26,8 @@
   "extends": [
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
-    "plugin:sonarjs/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:security/recommended",
     "plugin:prettier/recommended"
   ],
   "rules": {
@@ -38,7 +36,7 @@
     "simple-import-sort/exports": "error",
 
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-explicit-any": "error",
 
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
@@ -61,9 +59,7 @@
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
-        "components": ["Link"],
-        "specialLink": ["hrefLeft", "hrefRight"],
-        "aspects": ["invalidHref", "preferButton"]
+        "no-html-link-for-pages": true
       }
     ],
     "no-nested-ternary": "off",
